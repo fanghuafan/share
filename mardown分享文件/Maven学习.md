@@ -122,7 +122,7 @@ maven主要用于管理工程依赖与编译工程，可以作为持续集成工
 	mvn war:exploded tomcat:exploded 部署展开的war文件
 
 
-> 参考文献与书籍   
-> https://zh.wikipedia.org/wiki/Apache_Maven    
-> https://www.jianshu.com/p/0fb5e3fb704d    
-> https://zhuanlan.zhihu.com/p/29208926 
+> 参考文献与书籍      
+> https://zh.wikipedia.org/wiki/Apache_Maven      
+> https://www.jianshu.com/p/0fb5e3fb704d      
+> https://zhuanlan.zhihu.com/p/29208926    

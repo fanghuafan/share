@@ -71,12 +71,12 @@ CI(Continuous Integration)持续集成，CD(Continuous Delivery) 持续交付，
 ## 五、Jenkins如何应用？
 关于Jenkins的应用，在网上找到一篇写的很好的文章：[Jenkins应用](http://skyseraph.com/2016/07/18/Tools/Jenkins%20Gitlab%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90%E6%89%93%E5%8C%85%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA/ "Jenkins应用")
 
-> 参考文献与书籍
-> http://www.360doc.com/content/16/0301/07/412471_538441377.shtml 
-> http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html
-> https://develop.aliyun.com/devops?spm=5176.128995.655207.1.23336464LHwsbi
-> https://cloud.tencent.com/solution/devops
-> https://zh.wikipedia.org/wiki/DevOps
-> https://www.cnblogs.com/liyuanhong/p/6548925.html
-> https://juejin.im/entry/5a97b0def265da23a334a25d
-> 《Jenkins权威指南》
+> 参考文献与书籍    
+> http://www.360doc.com/content/16/0301/07/412471_538441377.shtml   
+> http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html   
+> https://develop.aliyun.com/devops?spm=5176.128995.655207.1.23336464LHwsbi    
+> https://cloud.tencent.com/solution/devops   
+> https://zh.wikipedia.org/wiki/DevOps    
+> https://www.cnblogs.com/liyuanhong/p/6548925.html   
+> https://juejin.im/entry/5a97b0def265da23a334a25d   
+> 《Jenkins权威指南》    

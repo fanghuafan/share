@@ -29,7 +29,7 @@ GitLab 是一个用于仓库管理系统的开源项目。 使用Git作为代码
 
 
 
-> 参考文献：    
-> https://docs.gitlab.com/ce/development/architecture.html   
-> https://blog.csdn.net/kikajack/article/details/80354774  
-> https://www.tuicool.com/articles/bYbi2mJ 
+> 参考文献：      
+> https://docs.gitlab.com/ce/development/architecture.html      
+> https://blog.csdn.net/kikajack/article/details/80354774    
+> https://www.tuicool.com/articles/bYbi2mJ   

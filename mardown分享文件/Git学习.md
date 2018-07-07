@@ -328,9 +328,9 @@ Git的设置文件为.gitconfig，它可以在用户主目录下（全局配置�
 	￥ git grep 
 	
 
-> 参考文献与书籍
-> https://www.cnblogs.com/selimsong/p/9059964.html   
-> https://zh.wikipedia.org/wiki/Git   
-> http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html   
-> https://www.jianshu.com/p/527e34f53b51?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation    
-> 《精通Git (第二版)》
+> 参考文献与书籍    
+> https://www.cnblogs.com/selimsong/p/9059964.html     
+> https://zh.wikipedia.org/wiki/Git     
+> http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html     
+> https://www.jianshu.com/p/527e34f53b51?   utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation      
+> 《精通Git (第二版)》  
