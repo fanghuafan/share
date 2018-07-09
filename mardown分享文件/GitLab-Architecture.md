@@ -27,9 +27,20 @@ GitLab 是一个用于仓库管理系统的开源项目。 使用Git作为代码
 - GitLab-workhorse：反向代理服务器，可以处理与 Rails 无关的请求（磁盘上的 CSS、JS 文件等），处理 Git Push/Pull 请求，处理到 Rails 的连接（修改由 Rails 发送的响应或发送给 Rails 的请求，管理 Rails 的长期 WebSocket 连接等）
 
 
+- GitLab持续集成组件    
+![](../../images/git/gitlab/gitlab-ci-0.png)    
+![](../../images/git/gitlab/gitlab-ci.png)     
+	- GitLab-CI：GitLab-CI就是一套配合GitLab使用的持续集成系统（当然，还有其它的持续集成系统，同样可以配合GitLab使用，比如Jenkins）。而且GitLab8.0以后的版本是默认集成了GitLab-CI并且默认启用的。
+	- GitLab-Runner：GitLab-Runner是配合GitLab-CI进行使用的。一般地，GitLab里面的每一个工程都会定义一个属于这个工程的软件集成脚本，用来自动化地完成一些软件集成工作。当这个工程的仓库代码发生变动时，比如有人push了代码，GitLab就会将这个变动通知GitLab-CI。这时GitLab-CI会找出与这个工程相关联的Runner，并通知这些Runner把代码更新到本地并执行预定义好的执行脚本。
+	- GitLab-Runner可以分类两种类型：Shared Runner（共享型）和Specific Runner（指定型）：
+		- Shared Runner：这种Runner（工人）是所有工程都能够用的。只有系统管理员能够创建Shared Runner。
+		- Specific Runner：这种Runner（工人）只能为指定的工程服务。拥有该工程访问权限的人都能够为该工程创建Shared Runner。
 
 
-> 参考文献：      
-> https://docs.gitlab.com/ce/development/architecture.html      
+> 参考文献：    
+> https://docs.gitlab.com/ce/development/architecture.html     
 > https://blog.csdn.net/kikajack/article/details/80354774    
-> https://www.tuicool.com/articles/bYbi2mJ   
+> https://www.tuicool.com/articles/bYbi2mJ       
+> https://docs.gitlab.com/ee/ci/README.html#doc-nav   
+> https://www.cnblogs.com/cnundefined/p/7095368.html   
+> https://docs.gitlab.com/runner/   
