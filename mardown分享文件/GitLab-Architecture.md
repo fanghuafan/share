@@ -26,11 +26,10 @@ GitLab 是一个用于仓库管理系统的开源项目。 使用Git作为代码
 - Gitaly：后台服务，专门负责访问磁盘以高效处理 git 操作，并缓存耗时操作。所有的 git 操作都通过 Gitaly 处理；
 - GitLab-workhorse：反向代理服务器，可以处理与 Rails 无关的请求（磁盘上的 CSS、JS 文件等），处理 Git Push/Pull 请求，处理到 Rails 的连接（修改由 Rails 发送的响应或发送给 Rails 的请求，管理 Rails 的长期 WebSocket 连接等）
 
-
-- GitLab持续集成组件    
 ![](images/git/gitlab/gitlab-ci-0.png)    
 
 ![](images/git/gitlab/gitlab-ci.png)     
+- GitLab持续集成组件    
 	- GitLab-CI：GitLab-CI就是一套配合GitLab使用的持续集成系统（当然，还有其它的持续集成系统，同样可以配合GitLab使用，比如Jenkins）。而且GitLab8.0以后的版本是默认集成了GitLab-CI并且默认启用的。
 	- GitLab-Runner：GitLab-Runner是配合GitLab-CI进行使用的。一般地，GitLab里面的每一个工程都会定义一个属于这个工程的软件集成脚本，用来自动化地完成一些软件集成工作。当这个工程的仓库代码发生变动时，比如有人push了代码，GitLab就会将这个变动通知GitLab-CI。这时GitLab-CI会找出与这个工程相关联的Runner，并通知这些Runner把代码更新到本地并执行预定义好的执行脚本。
 	- GitLab-Runner可以分类两种类型：Shared Runner（共享型）和Specific Runner（指定型）：
