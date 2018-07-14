@@ -1,11 +1,11 @@
 # GitLab介绍
 
-## 一、GitLab是什么？
+## 一、GitLab介绍
 GitLab是由GitLab Inc.开发，使用MIT许可证的基于网络的Git仓库管理工具，且具有wiki和issue跟踪功能。
 
 GitLab 是一个用于仓库管理系统的开源项目。 使用Git作为代码管理工具，并在此基础上搭建起来的web服务。Github是公共的git仓库，而Gitlab适合于搭建企业内部私有git仓库。
 
-## 二、GitLiab架构如何？
+## 二、GitLiab架构
 
 
 ![](images/git/gitlab/gitlab.png)

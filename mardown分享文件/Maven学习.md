@@ -1,16 +1,16 @@
 # Maven介绍
 
-## 一、maven是什么？
+## 一、maven介绍
  　　Apache Maven，是一个软件（特别是Java软件）项目管理及自动构建工具，由Apache软件基金会所提供。基于项目对象模型（缩写：POM）概念，Maven利用一个中央信息片断能管理一个项目的构建、报告和文档等步骤。    
  　　Maven也可被用于构建和管理各种项目，例如C#，Ruby，Scala和其他语言编写的项目。Maven曾是Jakarta项目的子项目，现为由Apache软件基金会主持的独立Apache项目。
 
-## 二、maven有何用？
+## 二、maven功能作用
 日常工作中maven使用最多的就是Java工程师使用maven进行工程项目的依赖管理，其实maven主要作用就两个： 
                        　
 1. 统一开发规范与工具      
 2. 统一管理jar包      
 
-## 三、maven原理是什么？
+## 三、maven原理
 ### 1、两个基本概念
 #### （1）、POM
 POM的全称是Project Object Model，用通俗点的话说就是对要构建的项目进行建模，将要构建的项目看成是一个对象（Object）。在maven中一个项目都是用一个唯一的坐标（coordinate）来表示，坐标由groupId, artifactId, version, classifier, type这五部分组成。这样来说PO应该也要具备坐标属性。另外，一个项目会依赖另一个项目，所以PO应该具备dependencies属性，同样的，PO对象也有其父对象，用parent属性来表示，并且PO对象会继承其父对象的所有属性。另外一方面，一个项目可能根据不同职责分为多个模块（module），所有模块其实也就是一个单独的项目，只不过这些项目会使用其父对象的一些属性来进行构建。综上，这个用Java描述的的PO对象为：    
@@ -65,10 +65,7 @@ Lifecycle顾名思义就是生命周期的意思，一个LifeCycle包括多个ph
 1. POM(Project Object Model)：工程对象模型，对应pom.xml中的<build>。
 2. LifeCycle:maven的的生命周期对应多个phase，phase有对应一个具体的动作实现goal，吗，每个phase都会对应一个具体的goal，goal对应pom.xml中的<plugins>。
 
-## 四、maven什么实现？
-maven是使用Java实现，Githu上的地址：https://github.com/apache/maven。（待续）
-
-## 五、maven什么应用？
+## 四、maven相关命令
 maven主要用于管理工程依赖与编译工程，可以作为持续集成工具的一部分，下面主要介绍一些常用命令：
 
 #### 1、mvn常用参数

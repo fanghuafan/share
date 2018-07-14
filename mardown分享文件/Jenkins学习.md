@@ -1,6 +1,6 @@
 # Jenkins介绍
 
-## 一、Jenkins是什么？
+## 一、Jenkins相关概念
 学习jenkins之前我们先来学习几个相关概念。
 ### 1、了解DevOps
 首先了解DevOps，WIKI上是这样描述DevOps，DevOps（Development和Operations的组合词）是一种重视“软件开发人员（Dev）”和“IT运维技术人员（Ops）”之间沟通合作的文化、运动或惯例。透过自动化“软件交付”和“架构变更”的流程，来使得构建、测试、发布软件能够更加地快捷、频繁和可靠。   
@@ -31,7 +31,7 @@ Martin Fowler说过，"持续集成并不能消除Bug，而是让它们非常容
 ![](images/devops/aliyun-devops.png)    
  
 第一张是阿里云的DevOps，第二张是腾讯云的DevOps，这两张图都充分体现出开发、运维、测试、产品/运营人员之间的闭环协作关系，同时更能体现了持续集成、交付、部署的工作流程。
-## 二、Jenkins有何用？
+## 二、Jenkins功能作用
 为了更好地说明Jenkins的功能和作用，上一节中我们引入了devOps和持续集成等概念，而Jenkins跟这几个概念又有什么联系呢？接下来我们看看jenkins到底有什么大作用。
 ### 1、中间协调器
 ![](images/jenkins/jenkins-0.png)    
@@ -45,7 +45,7 @@ Martin Fowler说过，"持续集成并不能消除Bug，而是让它们非常容
 ### 3、监控定时任务
 Jenkins提供了一些场景的定时任务，比如构建的定时任务，有点儿类似于Quartz定时任务的实现。
 
-## 三、Jenkins原理是什么？
+## 三、持续集成架构
 其实，上面已经把Jenkins的主要功能列举出来，Jenkins主要是集成插件以实现项目持续集成、交付、部署的一系列功能，下面街介绍下三种持续集成方案：
 #### 1、CI/CD原理
 CI(Continuous Integration)持续集成，CD(Continuous Delivery) 持续交付，通常会采用一些软件如Jenkins、Drone、Travis、Gocd等来辅助项目流程。CI/CD能够与Git SVN等代码管理仓库集成，帮助使用者实现自动化任务。
@@ -65,10 +65,7 @@ CI(Continuous Integration)持续集成，CD(Continuous Delivery) 持续交付，
 ④Docker主机pull最新的镜像，删除旧的容器，并生成最新的容器，完成部署上线。
 ![](images/jenkins/jenkins-8.jpg)    
 
-## 四、Jenkins如何实现？
-源码地址：https://github.com/jenkinsci/jenkins（待续……）
-
-## 五、Jenkins如何应用？
+## 四、Jenkins实践
 关于Jenkins的应用，在网上找到一篇写的很好的文章：[Jenkins应用](http://skyseraph.com/2016/07/18/Tools/Jenkins%20Gitlab%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90%E6%89%93%E5%8C%85%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA/ "Jenkins应用")
 
 > 参考文献与书籍    
